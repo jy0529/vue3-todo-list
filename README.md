@@ -14,9 +14,9 @@ yarn unit:coverage # get coverage
 yarn e2e # e2e testing, run yarn serve first.
 ```
 ## Features
-- [-] TDD
-- [-] Unit Test
-- [-] E2E Test
+- [x] TDD
+- [x] Unit Test
+- [x] E2E Test
 - [ ] Mutation Test
 
 ## Technique Stack And Build System
