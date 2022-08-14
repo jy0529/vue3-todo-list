@@ -2,22 +2,21 @@
 
 ## Getting Start
 ```bash
-    yarn # install deps
+yarn # install deps
 
-    yarn dev # develop
-    # or
-    yarn serve # build and running    
+yarn dev # develop
+# or
+yarn serve # build and running    
 
-    yarn test # test watching
-    yarn unit:coverage # get coverage
+yarn test # test watching
+yarn unit:coverage # get coverage
 
-    yarn e2e # e2e testing, run yarn serve first.
-    
+yarn e2e # e2e testing, run yarn serve first.
 ```
 ## Features
-- [ - ] TDD
-- [ - ] Unit Test
-- [ - ] E2E Test
+- [-] TDD
+- [-] Unit Test
+- [-] E2E Test
 - [ ] Mutation Test
 
 ## Technique Stack And Build System
@@ -29,7 +28,7 @@
 - Vitest
 - Vue Test Utils
 - Cypress
-- c8 (coverage)
+- C8 (coverage)
 
 
 
