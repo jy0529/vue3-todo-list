@@ -1,0 +1,29 @@
+{
+  "name": "vue3-todo-list",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --port 8080",
+    "serve": "yarn build && yarn preview",
+    "test": "vitest",
+    "unit:coverage": "vitest run --coverage",
+    "test:e2e": "cypress open"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/test-utils": "^2.0.2",
+    "c8": "^7.12.0",
+    "cypress": "^10.4.0",
+    "cypress-jest-adapter": "^0.1.1",
+    "jsdom": "^20.0.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vitest": "^0.21.1",
+    "vue-tsc": "^0.39.5"
+  }
+}
